@@ -71,6 +71,7 @@ nav .profile-link {
     margin-right: 50px;
 }
 nav .profile-link a {
+    text-aling: center;
     width: 110px;
     font-size: larger;
     font-weight: 600;
