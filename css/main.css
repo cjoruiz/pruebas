@@ -45,7 +45,7 @@ header .header-icons-container .icons {
     display: grid;
     grid-row: 1;
     /*background: #47cfac;*/
-    width: auto;
+    width: 60%;
     height: auto;
     display: flex;
     justify-items: start;
@@ -55,7 +55,7 @@ header .header-icons-container .icons {
     margin-right: 40px;
 }
 header .header-icons-container .icons img{
-    width: 60px;
+    width: 50px;
 }
 header nav {
     grid-row: 2;
