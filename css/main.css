@@ -30,6 +30,7 @@ header .header-logo-conteiner img {
     margin-top: 10px ;
 }
 header .header-links-container{
+    grid-colum: 2;
     display: grid;
     grid-template-rows: 1fr 0.5fr;
     background-color: red;
