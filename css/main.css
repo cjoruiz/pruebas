@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merienda:wght@400;700&display=swap');
 
 body {
-    background: purple;
+    background: url('https://i.imgur.com/EoeWCRg.png') purple;
+    background-position: center;
+    background-size: cover;
     font-family: 'meriendo', cursive;
     margin: 0;
     padding: o;
@@ -78,9 +80,6 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background: url('https://i.imgur.com/EoeWCRg.png') purple;
-    background-position: center;
-    background-size: cover;
 }
 .home-main section {
     display: grid;
