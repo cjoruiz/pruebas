@@ -46,6 +46,9 @@ header .header-icons-container .icons {
     justify-self: end;
     margin-right: 40px;
 }
+header .header-icons-container .icons img {
+    width:20%;
+}
 header nav {
     grid-column: 2;
     padding: 0;
