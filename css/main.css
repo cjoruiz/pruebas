@@ -5,6 +5,7 @@ body {
     background: url('https://i.imgur.com/EoeWCRg.png') purple;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'meriendo', cursive;
     margin: 0;
     padding: o;
