@@ -59,6 +59,7 @@ header .header-icons-container .icons img{
     width: 50px;
 }
 header nav {
+    margin-top: 30px;
     grid-row: 2;
     padding: 0;
     display: grid;
