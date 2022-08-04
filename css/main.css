@@ -36,7 +36,6 @@ header .header-links-container{
     grid-column: 3;
     display: grid;
     grid-template-rows: 1fr 0.5fr;
-    background-color: red;
 }
 header .header-icons-container {
     width: 100%;
