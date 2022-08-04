@@ -3,13 +3,13 @@
 
 body {
     background: url('https://i.imgur.com/EoeWCRg.png') purple;
-    background-position: center;
+    background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'meriendo', cursive;
     margin: 0;
     padding: o;
-    position: fixed;
+    position:fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -60,14 +60,12 @@ header .header-icons-container .icons img{
     width: 50px;
 }
 header nav {
+    margin-top: 30px;
     grid-row: 2;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     height: 50px;
 }
 nav .profile-link {
-    grid-column: 2;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -78,7 +76,7 @@ nav .profile-link a {
     font-size: larger;
     font-weight: 600;
     color: white;
-    margin-right: 10px;
+    margin-left: 20px;
     padding: 5px;
     box-shadow: 4px 3px 8px 2px white;
 }
