@@ -78,7 +78,7 @@ nav .profile-link a {
     color: white;
     margin-right: 10px;
     padding: 5px;
-    box-shadow: 1px 1px 1px 1px white;
+    box-shadow: 4px 8px 2px 1px white;
 }
 .home-main {
     display: grid;
