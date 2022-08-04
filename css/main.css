@@ -18,7 +18,7 @@ a {
 }
 header {
     width: 100%;
-    height: 140px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -29,32 +29,34 @@ header .header-logo-conteiner img {
     width: 220px;
     margin-top: 10px ;
 }
+header .header-links-container{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    background-color: red;
+}
 header .header-icons-container {
-    grid-column: 2;
     width: 100%;
     height: auto;
     display: grid;
 }
 header .header-icons-container .icons {
+    grid-row: 1;
     /*background: #47cfac;*/
     width: 65%;
     height: auto;
     display: flex;
-    justify-items: flex-end;
+    justify-items: start;
     align-items: center;
     justify-content:space-around;
     justify-self: end;
     margin-right: 40px;
 }
-header .header-icons-container .icons img {
-    width:20%;
-}
 header nav {
-    grid-column: 2;
+    grid-row: 2;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100%;
+    height: 50px;
 }
 nav .profile-link {
     grid-column: 2;
@@ -90,6 +92,21 @@ nav .profile-link a {
     text-shadow: 2px 2px 2px black;
     font-size: 30px;
     font-weight: 700px;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+.home-main-text-descrption {
+    font-size: 24px;
+}
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #47cfac;
+    display: grid;
+    align-items: center;
+}
+
     letter-spacing: 10px;
     text-align: center;
 
