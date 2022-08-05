@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merienda:wght@400;700&display=swap');
 
 body {
-    background: url('https://i.imgur.com/EoeWCRg.png') purple;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'meriendo', cursive;
     margin: 0;
     padding: o;
@@ -58,6 +54,10 @@ header .header-icons-container .icons img{
     width: 50px;
 }
 .home-main {
+    background: url('https://i.imgur.com/EoeWCRg.png') purple;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 3fr 2fr 1fr;
 }
