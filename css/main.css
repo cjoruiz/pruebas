@@ -55,8 +55,9 @@ header .header-icons-container .icons img{
 }
 .home-main {
     display:grid;
-background-color: aqua;
+    background-color: aqua;
     height: 100%;
+    grid-template-rows: 1fr 1fr;
 }
 .home-main-container {
     background: url('https://i.imgur.com/EoeWCRg.png') purple;
@@ -96,6 +97,7 @@ background-color: aqua;
     box-shadow: 4px 3px 8px 2px #395B64;
 }
 .home-main-nav{
+    grid-row: 2;
     display: grid;
     height: 500px;
     background-color: #395B64;
