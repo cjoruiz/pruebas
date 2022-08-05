@@ -54,6 +54,11 @@ header .header-icons-container .icons img{
     width: 50px;
 }
 .home-main {
+    display:grid;
+background-color: aqua;
+    height: 100%;
+}
+.home-main-container {
     background: url('https://i.imgur.com/EoeWCRg.png') purple;
     background-position: inherit;
     background-size: cover;
@@ -63,7 +68,7 @@ header .header-icons-container .icons img{
 }
 .home-main-text {
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px #395B64;
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
@@ -82,12 +87,22 @@ header .header-icons-container .icons img{
     padding: 0px;
 }
 .home-main-profile-link a {
-    background-color: #395B64;
     width: 110px;
     font-size: larger;
     text-align: center;
     font-weight: 600;
     color: white;
     padding: 5px;
-    box-shadow: 4px 3px 8px 2px white;
+    box-shadow: 4px 3px 8px 2px #395B64;
+}
+.home-main-nav{
+    display: grid;
+    height: 500px;
+    background-color: #395B64;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.home-main-nav div{
+    grid-column: 2;
+    border-top: 2px dashed white;
+    margin: 30px;
 }
