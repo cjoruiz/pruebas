@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 body {
-<<<<<<< HEAD
 
     max-width: 1800px;
     background-color: red;
     margin: auto;
-=======
->>>>>>> 432834071c7c0a90692accb9c4363815cd6b015c
     font-family: 'meriendo', cursive;
     padding: o;
     position:fixed;
@@ -24,14 +21,9 @@ a {
     display: inline;
 }
 header {
-<<<<<<< HEAD
     min-width: 700px;
     width:100%;
     background-color: #395B64;
-=======
-    background-color: #395B64;
-    width: 100%;
->>>>>>> 432834071c7c0a90692accb9c4363815cd6b015c
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -68,10 +60,7 @@ header .header-icons-container .icons img{
     width: 50px;
 }
 .home-main {
-<<<<<<< HEAD
     min-width: 700px;
-=======
->>>>>>> 432834071c7c0a90692accb9c4363815cd6b015c
     display:grid;
     background-color: aqua;
     height: 100%;
@@ -105,30 +94,6 @@ header .header-icons-container .icons img{
     height: auto;
     margin-top: 30px;
     padding: 0px;
-<<<<<<< HEAD
-=======
-}
-.home-main-profile-link a {
-    width: 110px;
-    font-size: larger;
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    padding: 5px;
-    box-shadow: 4px 3px 8px 2px #395B64;
-}
-.home-main-nav{
-    grid-row: 2;
-    display: grid;
-    height: 500px;
-    background-color: #395B64;
-    grid-template-columns: 1fr 5fr 1fr;
-}
-.home-main-nav div{
-    grid-column: 2;
-    border-top: 2px dashed white;
-    margin: 30px;
->>>>>>> 432834071c7c0a90692accb9c4363815cd6b015c
 }
 .home-main-profile-link a {
     width: 110px;
